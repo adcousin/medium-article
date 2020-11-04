@@ -1,0 +1,78 @@
+body {
+  font-family: 'Sulphur Point', sans-serif;
+  margin: 0px;
+}
+
+.banner {
+  padding: 120px 0;
+background: radial-gradient(circle, rgba(0,0,0,0.8) 17%, rgba(255,255,255,0.4) 100%), url("https://source.unsplash.com/random/1000x500");
+color: white;
+background-size: cover;
+}
+
+.banner p {
+  font-size: 15px;
+}
+
+.container {
+  margin: 60px auto;
+  text-align: center;
+}
+
+a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(159deg, rgba(13,96,53,1) 0%, rgba(182,255,168,1) 100%);
+}
+
+a:hover {
+  background: linear-gradient(333deg, rgba(13,96,53,1) 0%, rgba(182,255,168,1) 100%);
+  font-size: 25px;
+}
+
+h1 {
+  font-family: 'Itim', cursive;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Syne Mono', monospace;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Dr Sugiyama', cursive;
+  margin: 0;
+  font-size: 35px;
+}
+
+#h2-font {
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+#h2-comic {
+  font-family: 'Itim', cursive;
+}
+
+#h2-proust {
+  font-family: 'Dr Sugiyama', cursive;
+}
+
+@media (max-width: 3000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 200px;
+  }
+}
